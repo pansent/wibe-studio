@@ -103,44 +103,68 @@ const CoverVideo = () => {
       <Title variants={container} initial="hidden" animate="show">
         <div>
           <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.13"
-            data-scroll-speed="4"
+              variants={item}
+              data-scroll
+              data-scroll-delay="0.21"
+              data-scroll-speed="4"
           >
-            W
+            J
           </motion.h1>
           <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.09"
-            data-scroll-speed="4"
+              variants={item}
+              data-scroll
+              data-scroll-delay="0.18"
+              data-scroll-speed="4"
           >
-            i
+            u
           </motion.h1>
           <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.06"
-            data-scroll-speed="4"
+              variants={item}
+              data-scroll
+              data-scroll-delay="0.15"
+              data-scroll-speed="4"
           >
-            b
+            n
           </motion.h1>
           <motion.h1
-            variants={item}
-            data-scroll
-            data-scroll-delay="0.04"
-            data-scroll-speed="4"
+              variants={item}
+              data-scroll
+              data-scroll-delay="0.12"
+              data-scroll-speed="4"
+          >
+            S
+          </motion.h1>
+          <motion.h1
+              variants={item}
+              data-scroll
+              data-scroll-delay="0.09"
+              data-scroll-speed="4"
+          >
+            h
+          </motion.h1>
+          <motion.h1
+              variants={item}
+              data-scroll
+              data-scroll-delay="0.06"
+              data-scroll-speed="4"
           >
             e
           </motion.h1>
+          <motion.h1
+              variants={item}
+              data-scroll
+              data-scroll-delay="0.03"
+              data-scroll-speed="4"
+          >
+            n
+          </motion.h1>
         </div>
         <motion.h2
-          style={{ alignSelf: "flex-end" }}
-          variants={item}
-          data-scroll
-          data-scroll-delay="0.04"
-          data-scroll-speed="2"
+            style={{alignSelf: "flex-end"}}
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="2"
         >
           inspire. create. belive
         </motion.h2>
